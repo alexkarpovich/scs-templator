@@ -1,0 +1,34 @@
+school_167
+=> nrel_main_idtf:
+	[Средняя школа №167](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[167];
+
+=> nrel_site:
+	[<a href="sch167.minsk.edu.by">sch167.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[улица Якубовского 46 Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 029 257-10-64] (* <- lang_ru;; *);;
+
+school_167 <= nrel_terrain_object_location: ..position167;;
+school_167<- concept_mapped_point;;
+school_167<- concept_terrain_object;;
+school_167<- concept_mapped_object;;
+..position167=> nrel_main_idtf: [53.8952685 с.ш. 27.4444101 в.д.](*<-lang_ru;;*);;
+..position167=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8952685];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4444101];;*);;
+*);;
+*);;

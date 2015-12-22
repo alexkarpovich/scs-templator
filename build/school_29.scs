@@ -1,0 +1,34 @@
+school_29
+=> nrel_main_idtf:
+	[Cредняя школа №29](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[29];
+
+=> nrel_site:
+	[<a href="http://sch29.minsk.edu.by">http://sch29.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул.Солнечная, 3] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375173283435] (* <- lang_ru;; *);;
+
+school_29 <= nrel_terrain_object_location: ..position29;;
+school_29<- concept_mapped_point;;
+school_29<- concept_terrain_object;;
+school_29<- concept_mapped_object;;
+..position29=> nrel_main_idtf: [53.863947 с.ш. 27.563171 в.д.](*<-lang_ru;;*);;
+..position29=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.863947];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.563171];;*);;
+*);;
+*);;

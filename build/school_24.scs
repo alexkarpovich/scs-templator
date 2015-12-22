@@ -1,0 +1,34 @@
+school_24
+=> nrel_main_idtf:
+	[Cредняя школа №24](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[24];
+
+=> nrel_site:
+	[<a href="http://sch24.minsk.edu.by">http://sch24.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Прушинских, 48] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375173287327] (* <- lang_ru;; *);;
+
+school_24 <= nrel_terrain_object_location: ..position24;;
+school_24<- concept_mapped_point;;
+school_24<- concept_terrain_object;;
+school_24<- concept_mapped_object;;
+..position24=> nrel_main_idtf: [53.836943 с.ш. 27.580230 в.д.](*<-lang_ru;;*);;
+..position24=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.836943];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.580230];;*);;
+*);;
+*);;

@@ -1,0 +1,34 @@
+school_26
+=> nrel_main_idtf:
+	[Cредняя школа №26](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[26];
+
+=> nrel_site:
+	[<a href="http://sch26.minsk.edu.by">http://sch26.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Льва Сапеги, 15] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172772881] (* <- lang_ru;; *);;
+
+school_26 <= nrel_terrain_object_location: ..position26;;
+school_26<- concept_mapped_point;;
+school_26<- concept_terrain_object;;
+school_26<- concept_mapped_object;;
+..position26=> nrel_main_idtf: [53.877544 с.ш. 27.488486 в.д.](*<-lang_ru;;*);;
+..position26=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.877544];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.488486];;*);;
+*);;
+*);;

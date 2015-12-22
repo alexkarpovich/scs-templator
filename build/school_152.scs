@@ -1,0 +1,34 @@
+school_152
+=> nrel_main_idtf:
+	[Средняя школа №152](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[152];
+
+=> nrel_site:
+	[<a href="sch152.minsk.edu.by">sch152.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[2-й Велосипедный пер.,Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 214-87-46] (* <- lang_ru;; *);;
+
+school_152 <= nrel_terrain_object_location: ..position152;;
+school_152<- concept_mapped_point;;
+school_152<- concept_terrain_object;;
+school_152<- concept_mapped_object;;
+..position152=> nrel_main_idtf: [53.8745157 с.ш. 27.5896632 в.д.](*<-lang_ru;;*);;
+..position152=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8745157];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.5896632];;*);;
+*);;
+*);;

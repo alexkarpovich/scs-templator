@@ -1,0 +1,34 @@
+school_103
+=> nrel_main_idtf:
+	[Средняя школа №103](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[103];
+
+=> nrel_site:
+	[<a href="sch103.minsk.edu.by">sch103.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Притыцкого 18/1,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[204-08-04] (* <- lang_ru;; *);;
+
+school_103 <= nrel_terrain_object_location: ..position103;;
+school_103<- concept_mapped_point;;
+school_103<- concept_terrain_object;;
+school_103<- concept_mapped_object;;
+..position103=> nrel_main_idtf: [53.912722 с.ш. 27.498788 в.д.](*<-lang_ru;;*);;
+..position103=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.912722];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.498788];;*);;
+*);;
+*);;

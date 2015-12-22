@@ -1,0 +1,34 @@
+school_163
+=> nrel_main_idtf:
+	[Средняя школа №163](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[163];
+
+=> nrel_site:
+	[<a href="sch163.minsk.edu.by">sch163.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Тикоцкого,Минск 220119,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 263-25-42] (* <- lang_ru;; *);;
+
+school_163 <= nrel_terrain_object_location: ..position163;;
+school_163<- concept_mapped_point;;
+school_163<- concept_terrain_object;;
+school_163<- concept_mapped_object;;
+..position163=> nrel_main_idtf: [53.9546101 с.ш. 27.6341191 в.д.](*<-lang_ru;;*);;
+..position163=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9546101];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6341191];;*);;
+*);;
+*);;

@@ -1,0 +1,34 @@
+school_53
+=> nrel_main_idtf:
+	[Cредняя школа №53](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[53];
+
+=> nrel_site:
+	[<a href="sch53.minsk.edu.by/">sch53.minsk.edu.by/</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Л. Беды,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 331-30-45] (* <- lang_ru;; *);;
+
+school_53 <= nrel_terrain_object_location: ..position53;;
+school_53<- concept_mapped_point;;
+school_53<- concept_terrain_object;;
+school_53<- concept_mapped_object;;
+..position53=> nrel_main_idtf: [53.9313467 с.ш. 27.5866692 в.д.](*<-lang_ru;;*);;
+..position53=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9313467];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.5866692];;*);;
+*);;
+*);;

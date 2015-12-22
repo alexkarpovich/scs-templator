@@ -1,0 +1,34 @@
+school_113
+=> nrel_main_idtf:
+	[Средняя школа №113](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[113];
+
+=> nrel_site:
+	[<a href="sch113.minsk.edu.by">sch113.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[пр-т Пушкина 48,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[204-03-50] (* <- lang_ru;; *);;
+
+school_113 <= nrel_terrain_object_location: ..position113;;
+school_113<- concept_mapped_point;;
+school_113<- concept_terrain_object;;
+school_113<- concept_mapped_object;;
+..position113=> nrel_main_idtf: [53.915924 с.ш. 27.498908 в.д.](*<-lang_ru;;*);;
+..position113=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.915924];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.498908];;*);;
+*);;
+*);;

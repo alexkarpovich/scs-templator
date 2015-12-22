@@ -1,0 +1,34 @@
+school_170
+=> nrel_main_idtf:
+	[Средняя школа №170](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[170];
+
+=> nrel_site:
+	[<a href="sch170.minsk.edu.by">sch170.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Алеся Бачило 26,Минск 220075,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 344-13-11] (* <- lang_ru;; *);;
+
+school_170 <= nrel_terrain_object_location: ..position170;;
+school_170<- concept_mapped_point;;
+school_170<- concept_terrain_object;;
+school_170<- concept_mapped_object;;
+..position170=> nrel_main_idtf: [53.8450582 с.ш. 27.6989579 в.д.](*<-lang_ru;;*);;
+..position170=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8450582];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6989579];;*);;
+*);;
+*);;

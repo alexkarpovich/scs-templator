@@ -1,0 +1,34 @@
+school_107
+=> nrel_main_idtf:
+	[Средняя школа №107](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[107];
+
+=> nrel_site:
+	[<a href="sch107.minsk.edu.by">sch107.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Седых 42,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[283-03-81] (* <- lang_ru;; *);;
+
+school_107 <= nrel_terrain_object_location: ..position107;;
+school_107<- concept_mapped_point;;
+school_107<- concept_terrain_object;;
+school_107<- concept_mapped_object;;
+..position107=> nrel_main_idtf: [53.949174 с.ш. 27.629822 в.д.](*<-lang_ru;;*);;
+..position107=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.949174];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.629822];;*);;
+*);;
+*);;

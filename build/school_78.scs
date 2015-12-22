@@ -1,0 +1,34 @@
+school_78
+=> nrel_main_idtf:
+	[Cредняя школа №78](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[78];
+
+=> nrel_site:
+	[<a href="sch78.minsk.edu.by">sch78.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г.Минск, ул. Неждановой,36,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 266-22-73] (* <- lang_ru;; *);;
+
+school_78 <= nrel_terrain_object_location: ..position78;;
+school_78<- concept_mapped_point;;
+school_78<- concept_terrain_object;;
+school_78<- concept_mapped_object;;
+..position78=> nrel_main_idtf: [53.9431322 с.ш. 27.5767866 в.д.](*<-lang_ru;;*);;
+..position78=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9431322];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.5767866];;*);;
+*);;
+*);;

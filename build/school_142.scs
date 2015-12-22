@@ -1,0 +1,34 @@
+school_142
+=> nrel_main_idtf:
+	[Средняя школа №142](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[142];
+
+=> nrel_site:
+	[<a href="sch142.minsk.edu.by">sch142.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[улица Шабаны 15,Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 344-13-71] (* <- lang_ru;; *);;
+
+school_142 <= nrel_terrain_object_location: ..position142;;
+school_142<- concept_mapped_point;;
+school_142<- concept_terrain_object;;
+school_142<- concept_mapped_object;;
+..position142=> nrel_main_idtf: [53.8374839 с.ш. 27.6963383 в.д.](*<-lang_ru;;*);;
+..position142=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8374839];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6963383];;*);;
+*);;
+*);;

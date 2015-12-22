@@ -1,0 +1,34 @@
+school_101
+=> nrel_main_idtf:
+	[Средняя школа №101](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[101];
+
+=> nrel_site:
+	[<a href="sch101.minsk.edu.by">sch101.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[пр-т Жукова 27,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[277-56-28] (* <- lang_ru;; *);;
+
+school_101 <= nrel_terrain_object_location: ..position101;;
+school_101<- concept_mapped_point;;
+school_101<- concept_terrain_object;;
+school_101<- concept_mapped_object;;
+..position101=> nrel_main_idtf: [53.885903 с.ш. 27.505952 в.д.](*<-lang_ru;;*);;
+..position101=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.885903];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.505952];;*);;
+*);;
+*);;

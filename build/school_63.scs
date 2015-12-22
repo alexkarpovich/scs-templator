@@ -1,0 +1,34 @@
+school_63
+=> nrel_main_idtf:
+	[Cредняя школа №63](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[63];
+
+=> nrel_site:
+	[<a href="sch63.minsk.edu.by">sch63.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Кедышко 19,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 263-44-00] (* <- lang_ru;; *);;
+
+school_63 <= nrel_terrain_object_location: ..position63;;
+school_63<- concept_mapped_point;;
+school_63<- concept_terrain_object;;
+school_63<- concept_mapped_object;;
+..position63=> nrel_main_idtf: [53.9308197 с.ш. 27.6172542 в.д.](*<-lang_ru;;*);;
+..position63=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9308197];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6172542];;*);;
+*);;
+*);;

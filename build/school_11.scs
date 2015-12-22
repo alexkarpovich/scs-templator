@@ -1,0 +1,34 @@
+school_11
+=> nrel_main_idtf:
+	[Cредняя школа №11](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[11];
+
+=> nrel_site:
+	[<a href="http://sch11.minsk.edu.by">http://sch11.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Асаналиева, 14] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172755707] (* <- lang_ru;; *);;
+
+school_11 <= nrel_terrain_object_location: ..position11;;
+school_11<- concept_mapped_point;;
+school_11<- concept_terrain_object;;
+school_11<- concept_mapped_object;;
+..position11=> nrel_main_idtf: [53.853873 с.ш. 27.550830 в.д.](*<-lang_ru;;*);;
+..position11=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.853873];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.550830];;*);;
+*);;
+*);;

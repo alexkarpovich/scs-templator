@@ -1,0 +1,34 @@
+school_33
+=> nrel_main_idtf:
+	[Cредняя школа №33](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[33];
+
+=> nrel_site:
+	[<a href="http://sch33.minsk.edu.by">http://sch33.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Антоновская, 20] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172361982] (* <- lang_ru;; *);;
+
+school_33 <= nrel_terrain_object_location: ..position33;;
+school_33<- concept_mapped_point;;
+school_33<- concept_terrain_object;;
+school_33<- concept_mapped_object;;
+..position33=> nrel_main_idtf: [53.898313 с.ш. 27.590204 в.д.](*<-lang_ru;;*);;
+..position33=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.898313];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.590204];;*);;
+*);;
+*);;

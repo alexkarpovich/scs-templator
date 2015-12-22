@@ -1,0 +1,34 @@
+school_125
+=> nrel_main_idtf:
+	[Средняя школа №125](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[125];
+
+=> nrel_site:
+	[<a href="sch125.minsk.edu.by">sch125.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Жудро 15,Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 363-62-13] (* <- lang_ru;; *);;
+
+school_125 <= nrel_terrain_object_location: ..position125;;
+school_125<- concept_mapped_point;;
+school_125<- concept_terrain_object;;
+school_125<- concept_mapped_object;;
+..position125=> nrel_main_idtf: [53.9125664 с.ш. 27.4753923 в.д.](*<-lang_ru;;*);;
+..position125=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9125664];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4753923];;*);;
+*);;
+*);;

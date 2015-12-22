@@ -1,0 +1,34 @@
+school_4
+=> nrel_main_idtf:
+	[Cредняя школа №4](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[4];
+
+=> nrel_site:
+	[<a href="http://sch4.minsk.edu.by">http://sch4.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Красноармейская, 11] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375173275737] (* <- lang_ru;; *);;
+
+school_4 <= nrel_terrain_object_location: ..position4;;
+school_4<- concept_mapped_point;;
+school_4<- concept_terrain_object;;
+school_4<- concept_mapped_object;;
+..position4=> nrel_main_idtf: [53.900072 с.ш. 27.567648 в.д.](*<-lang_ru;;*);;
+..position4=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.900072];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.567648];;*);;
+*);;
+*);;

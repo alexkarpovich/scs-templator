@@ -1,0 +1,34 @@
+school_111
+=> nrel_main_idtf:
+	[Средняя школа №111](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[111];
+
+=> nrel_site:
+	[<a href="sch111.minsk.edu.by">sch111.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Гашкевича 12,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[220-06-93] (* <- lang_ru;; *);;
+
+school_111 <= nrel_terrain_object_location: ..position111;;
+school_111<- concept_mapped_point;;
+school_111<- concept_terrain_object;;
+school_111<- concept_mapped_object;;
+..position111=> nrel_main_idtf: [53.842393 с.ш. 27.566818 в.д.](*<-lang_ru;;*);;
+..position111=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.842393];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.566818];;*);;
+*);;
+*);;

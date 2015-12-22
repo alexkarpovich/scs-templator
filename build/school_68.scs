@@ -1,0 +1,34 @@
+school_68
+=> nrel_main_idtf:
+	[Cредняя школа №68](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[68];
+
+=> nrel_site:
+	[<a href="hsch68.minsk.edu.by/">hsch68.minsk.edu.by/</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[пер. Охотский 17, 220102, Минск, Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 243-76-82] (* <- lang_ru;; *);;
+
+school_68 <= nrel_terrain_object_location: ..position68;;
+school_68<- concept_mapped_point;;
+school_68<- concept_terrain_object;;
+school_68<- concept_mapped_object;;
+..position68=> nrel_main_idtf: [53.870287 с.ш. 27.673134 в.д.](*<-lang_ru;;*);;
+..position68=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.870287];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.673134];;*);;
+*);;
+*);;

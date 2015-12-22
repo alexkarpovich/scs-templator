@@ -1,0 +1,34 @@
+school_62
+=> nrel_main_idtf:
+	[Cредняя школа №62](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[62];
+
+=> nrel_site:
+	[<a href="sch62.minsk.edu.by">sch62.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Асаналиева 16,Минск 220024,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 277-46-17] (* <- lang_ru;; *);;
+
+school_62 <= nrel_terrain_object_location: ..position62;;
+school_62<- concept_mapped_point;;
+school_62<- concept_terrain_object;;
+school_62<- concept_mapped_object;;
+..position62=> nrel_main_idtf: [53.8540169 с.ш. 27.5466996 в.д.](*<-lang_ru;;*);;
+..position62=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8540169];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.5466996];;*);;
+*);;
+*);;

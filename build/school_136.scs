@@ -1,0 +1,34 @@
+school_136
+=> nrel_main_idtf:
+	[Средняя школа №136](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[136];
+
+=> nrel_site:
+	[<a href="sch136.minsk.edu.by">sch136.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Сердича 9,Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 363-80-00] (* <- lang_ru;; *);;
+
+school_136 <= nrel_terrain_object_location: ..position136;;
+school_136<- concept_mapped_point;;
+school_136<- concept_terrain_object;;
+school_136<- concept_mapped_object;;
+..position136=> nrel_main_idtf: [53.9099601 с.ш. 27.4835591 в.д.](*<-lang_ru;;*);;
+..position136=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9099601];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4835591];;*);;
+*);;
+*);;

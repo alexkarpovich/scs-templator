@@ -1,0 +1,34 @@
+school_71
+=> nrel_main_idtf:
+	[Cредняя школа №71](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[71];
+
+=> nrel_site:
+	[<a href="sch71.minsk.edu.by">sch71.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[улица Корженевского 29,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 (17) 398-36-07] (* <- lang_ru;; *);;
+
+school_71 <= nrel_terrain_object_location: ..position71;;
+school_71<- concept_mapped_point;;
+school_71<- concept_terrain_object;;
+school_71<- concept_mapped_object;;
+..position71=> nrel_main_idtf: [53.8473512 с.ш. 27.5007871 в.д.](*<-lang_ru;;*);;
+..position71=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8473512];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.5007871];;*);;
+*);;
+*);;

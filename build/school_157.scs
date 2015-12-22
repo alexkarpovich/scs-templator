@@ -1,0 +1,34 @@
+school_157
+=> nrel_main_idtf:
+	[Средняя школа №157](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[157];
+
+=> nrel_site:
+	[<a href="sch157.minsk.edu.by">sch157.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Бурдейного,Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 258-87-50] (* <- lang_ru;; *);;
+
+school_157 <= nrel_terrain_object_location: ..position157;;
+school_157<- concept_mapped_point;;
+school_157<- concept_terrain_object;;
+school_157<- concept_mapped_object;;
+..position157=> nrel_main_idtf: [53.9021933 с.ш. 27.4448377 в.д.](*<-lang_ru;;*);;
+..position157=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9021933];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4448377];;*);;
+*);;
+*);;

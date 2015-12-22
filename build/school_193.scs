@@ -1,0 +1,34 @@
+school_193
+=> nrel_main_idtf:
+	[Cредняя школа №193](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[193];
+
+=> nrel_site:
+	[<a href="sch193.minsk.edu.by">sch193.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[улица Кунцевщина 10,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 258-34-92] (* <- lang_ru;; *);;
+
+school_193 <= nrel_terrain_object_location: ..position193;;
+school_193<- concept_mapped_point;;
+school_193<- concept_terrain_object;;
+school_193<- concept_mapped_object;;
+..position193=> nrel_main_idtf: [53.9107778 с.ш. 27.4368497 в.д.](*<-lang_ru;;*);;
+..position193=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9107778];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4368497];;*);;
+*);;
+*);;

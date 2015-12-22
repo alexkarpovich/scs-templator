@@ -1,0 +1,34 @@
+school_84
+=> nrel_main_idtf:
+	[Средняя школа №84](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[84];
+
+=> nrel_site:
+	[<a href="sch84.minsk.edu.by">sch84.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Пономарёва 11,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[282-64-37] (* <- lang_ru;; *);;
+
+school_84 <= nrel_terrain_object_location: ..position84;;
+school_84<- concept_mapped_point;;
+school_84<- concept_terrain_object;;
+school_84<- concept_mapped_object;;
+..position84=> nrel_main_idtf: [53.876847 с.ш. 27.704253 в.д.](*<-lang_ru;;*);;
+..position84=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.876847];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.704253];;*);;
+*);;
+*);;

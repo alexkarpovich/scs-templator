@@ -1,0 +1,34 @@
+school_42
+=> nrel_main_idtf:
+	[Средняя школа № 42](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[42];
+
+=> nrel_site:
+	[<a href="sch42.minsk.edu.by">sch42.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[Нёманская ул. 7,Минск 220017,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 390-71-25] (* <- lang_ru;; *);;
+
+school_42 <= nrel_terrain_object_location: ..position42;;
+school_42<- concept_mapped_point;;
+school_42<- concept_terrain_object;;
+school_42<- concept_mapped_object;;
+..position42=> nrel_main_idtf: [53.911025 с.ш. 27.420883 в.д.](*<-lang_ru;;*);;
+..position42=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.911025];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.420883];;*);;
+*);;
+*);;

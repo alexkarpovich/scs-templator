@@ -1,0 +1,34 @@
+school_119
+=> nrel_main_idtf:
+	[Средняя школа №119](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[119];
+
+=> nrel_site:
+	[<a href="sch119.minsk.edu.by">sch119.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Ландера 120,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[278-94-20] (* <- lang_ru;; *);;
+
+school_119 <= nrel_terrain_object_location: ..position119;;
+school_119<- concept_mapped_point;;
+school_119<- concept_terrain_object;;
+school_119<- concept_mapped_object;;
+..position119=> nrel_main_idtf: [53.844684 с.ш. 27.492698 в.д.](*<-lang_ru;;*);;
+..position119=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.844684];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.492698];;*);;
+*);;
+*);;

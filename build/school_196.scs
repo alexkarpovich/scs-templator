@@ -1,0 +1,34 @@
+school_196
+=> nrel_main_idtf:
+	[Cредняя школа №196](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[196];
+
+=> nrel_site:
+	[<a href="sch196.minsk.edu.by">sch196.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Никифорова 21,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 260-80-74] (* <- lang_ru;; *);;
+
+school_196 <= nrel_terrain_object_location: ..position196;;
+school_196<- concept_mapped_point;;
+school_196<- concept_terrain_object;;
+school_196<- concept_mapped_object;;
+..position196=> nrel_main_idtf: [53.9405086 с.ш. 27.6913927 в.д.](*<-lang_ru;;*);;
+..position196=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9405086];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6913927];;*);;
+*);;
+*);;

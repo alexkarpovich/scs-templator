@@ -1,0 +1,34 @@
+school_21
+=> nrel_main_idtf:
+	[Cредняя школа №21](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[21];
+
+=> nrel_site:
+	[<a href="http://sch21.minsk.edu.by">http://sch21.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск ул.Куйбышева, 19] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172847582] (* <- lang_ru;; *);;
+
+school_21 <= nrel_terrain_object_location: ..position21;;
+school_21<- concept_mapped_point;;
+school_21<- concept_terrain_object;;
+school_21<- concept_mapped_object;;
+..position21=> nrel_main_idtf: [53.911101 с.ш. 27.564460 в.д.](*<-lang_ru;;*);;
+..position21=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.911101];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.564460];;*);;
+*);;
+*);;

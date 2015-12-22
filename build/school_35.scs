@@ -1,0 +1,34 @@
+school_35
+=> nrel_main_idtf:
+	[Cредняя школа №35](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[35];
+
+=> nrel_site:
+	[<a href="http://sch35.minsk.edu.by">http://sch35.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Азизова, 6] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172888433] (* <- lang_ru;; *);;
+
+school_35 <= nrel_terrain_object_location: ..position35;;
+school_35<- concept_mapped_point;;
+school_35<- concept_terrain_object;;
+school_35<- concept_mapped_object;;
+..position35=> nrel_main_idtf: [53.930506 с.ш. 27.558894 в.д.](*<-lang_ru;;*);;
+..position35=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.930506];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.558894];;*);;
+*);;
+*);;

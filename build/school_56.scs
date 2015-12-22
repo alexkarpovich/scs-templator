@@ -1,0 +1,34 @@
+school_56
+=> nrel_main_idtf:
+	[Cредняя школа №56](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[56];
+
+=> nrel_site:
+	[<a href="sch56.minsk.edu.by">sch56.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г.Минск, ул. Каменногорская, 70] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17) 256-85-58] (* <- lang_ru;; *);;
+
+school_56 <= nrel_terrain_object_location: ..position56;;
+school_56<- concept_mapped_point;;
+school_56<- concept_terrain_object;;
+school_56<- concept_mapped_object;;
+..position56=> nrel_main_idtf: [53.836467 с.ш. 27.6327954 в.д.](*<-lang_ru;;*);;
+..position56=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.836467];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6327954];;*);;
+*);;
+*);;

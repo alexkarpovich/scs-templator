@@ -1,0 +1,34 @@
+school_179
+=> nrel_main_idtf:
+	[Cредняя школа №179](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[179];
+
+=> nrel_site:
+	[<a href="http://sch179.minsk.edu.by">http://sch179.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Лещинского, 21] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172586687] (* <- lang_ru;; *);;
+
+school_179 <= nrel_terrain_object_location: ..position179;;
+school_179<- concept_mapped_point;;
+school_179<- concept_terrain_object;;
+school_179<- concept_mapped_object;;
+..position179=> nrel_main_idtf: [53.911209 с.ш. 27.447430 в.д.](*<-lang_ru;;*);;
+..position179=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.911209];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.447430];;*);;
+*);;
+*);;

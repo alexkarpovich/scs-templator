@@ -1,0 +1,34 @@
+school_172
+=> nrel_main_idtf:
+	[Средняя школа №172](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[172];
+
+=> nrel_site:
+	[<a href="sch172.minsk.edu.by">sch172.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Охотская 141,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[242-44-09] (* <- lang_ru;; *);;
+
+school_172 <= nrel_terrain_object_location: ..position172;;
+school_172<- concept_mapped_point;;
+school_172<- concept_terrain_object;;
+school_172<- concept_mapped_object;;
+..position172=> nrel_main_idtf: [53.881541 с.ш. 27.666386 в.д.](*<-lang_ru;;*);;
+..position172=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.881541];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.666386];;*);;
+*);;
+*);;

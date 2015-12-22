@@ -1,0 +1,34 @@
+school_34
+=> nrel_main_idtf:
+	[Cредняя школа №34](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[34];
+
+=> nrel_site:
+	[<a href="http://sch34.minsk.edu.by">http://sch34.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Мирошниченко, 35] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172619885] (* <- lang_ru;; *);;
+
+school_34 <= nrel_terrain_object_location: ..position34;;
+school_34<- concept_mapped_point;;
+school_34<- concept_terrain_object;;
+school_34<- concept_mapped_object;;
+..position34=> nrel_main_idtf: [53.960308 с.ш. 27.608831 в.д.](*<-lang_ru;;*);;
+..position34=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.960308];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.608831];;*);;
+*);;
+*);;

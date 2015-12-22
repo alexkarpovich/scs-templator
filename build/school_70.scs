@@ -1,0 +1,34 @@
+school_70
+=> nrel_main_idtf:
+	[Cредняя школа №70](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[70];
+
+=> nrel_site:
+	[<a href="sch70.minsk.edu.by">sch70.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Калиновского,34] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 263 45 51] (* <- lang_ru;; *);;
+
+school_70 <= nrel_terrain_object_location: ..position70;;
+school_70<- concept_mapped_point;;
+school_70<- concept_terrain_object;;
+school_70<- concept_mapped_object;;
+..position70=> nrel_main_idtf: [53.947712 с.ш. 27.624289 в.д.](*<-lang_ru;;*);;
+..position70=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.947712];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.624289];;*);;
+*);;
+*);;

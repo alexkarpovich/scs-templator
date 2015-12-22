@@ -1,0 +1,34 @@
+school_154
+=> nrel_main_idtf:
+	[Средняя школа №154](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[154];
+
+=> nrel_site:
+	[<a href="sch154.minsk.edu.by">sch154.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Голубева 31,Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 029 267-10-54] (* <- lang_ru;; *);;
+
+school_154 <= nrel_terrain_object_location: ..position154;;
+school_154<- concept_mapped_point;;
+school_154<- concept_terrain_object;;
+school_154<- concept_mapped_object;;
+..position154=> nrel_main_idtf: [53.8678497 с.ш. 27.4587815 в.д.](*<-lang_ru;;*);;
+..position154=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8678497];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4587815];;*);;
+*);;
+*);;

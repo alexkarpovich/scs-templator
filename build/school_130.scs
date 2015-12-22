@@ -1,0 +1,34 @@
+school_130
+=> nrel_main_idtf:
+	[Средняя школа №130](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[130];
+
+=> nrel_site:
+	[<a href="sch130.minsk.edu.by">sch130.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[улица Янки Лучины 16 Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[?] (* <- lang_ru;; *);;
+
+school_130 <= nrel_terrain_object_location: ..position130;;
+school_130<- concept_mapped_point;;
+school_130<- concept_terrain_object;;
+school_130<- concept_mapped_object;;
+..position130=> nrel_main_idtf: [53.8385844 с.ш. 27.568131 в.д.](*<-lang_ru;;*);;
+..position130=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8385844];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.568131];;*);;
+*);;
+*);;

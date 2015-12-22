@@ -1,0 +1,34 @@
+school_133
+=> nrel_main_idtf:
+	[Средняя школа №133](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[133];
+
+=> nrel_site:
+	[<a href="sch133.minsk.edu.by">sch133.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Фроликова 31/2,Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 245-65-41] (* <- lang_ru;; *);;
+
+school_133 <= nrel_terrain_object_location: ..position133;;
+school_133<- concept_mapped_point;;
+school_133<- concept_terrain_object;;
+school_133<- concept_mapped_object;;
+..position133=> nrel_main_idtf: [53.8996437 с.ш. 27.6170514 в.д.](*<-lang_ru;;*);;
+..position133=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8996437];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6170514];;*);;
+*);;
+*);;

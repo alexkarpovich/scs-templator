@@ -1,0 +1,34 @@
+school_162
+=> nrel_main_idtf:
+	[Средняя школа №162](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[162];
+
+=> nrel_site:
+	[<a href="sch162.minsk.edu.by">sch162.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Герасименко 10,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 242-87-84] (* <- lang_ru;; *);;
+
+school_162 <= nrel_terrain_object_location: ..position162;;
+school_162<- concept_mapped_point;;
+school_162<- concept_terrain_object;;
+school_162<- concept_mapped_object;;
+..position162=> nrel_main_idtf: [53.8782541 с.ш. 27.6885038 в.д.](*<-lang_ru;;*);;
+..position162=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8782541];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6885038];;*);;
+*);;
+*);;

@@ -1,0 +1,34 @@
+school_144
+=> nrel_main_idtf:
+	[Средняя школа №144](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[144];
+
+=> nrel_site:
+	[<a href="sch144.minsk.edu.by">sch144.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[Академика Красина 65, пос Сосны, Минск, 220109] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 299-47-90] (* <- lang_ru;; *);;
+
+school_144 <= nrel_terrain_object_location: ..position144;;
+school_144<- concept_mapped_point;;
+school_144<- concept_terrain_object;;
+school_144<- concept_mapped_object;;
+..position144=> nrel_main_idtf: [53.8270011 с.ш. 27.7687028 в.д.](*<-lang_ru;;*);;
+..position144=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8270011];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.7687028];;*);;
+*);;
+*);;

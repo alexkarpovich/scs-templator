@@ -1,0 +1,34 @@
+school_177
+=> nrel_main_idtf:
+	[Cредняя школа №177](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[177];
+
+=> nrel_site:
+	[<a href="http://sch177.minsk.edu.by">http://sch177.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Шугаева, 19-1] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172047936] (* <- lang_ru;; *);;
+
+school_177 <= nrel_terrain_object_location: ..position177;;
+school_177<- concept_mapped_point;;
+school_177<- concept_terrain_object;;
+school_177<- concept_mapped_object;;
+..position177=> nrel_main_idtf: [53.935869 с.ш. 27.681986 в.д.](*<-lang_ru;;*);;
+..position177=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.935869];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.681986];;*);;
+*);;
+*);;

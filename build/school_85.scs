@@ -1,0 +1,34 @@
+school_85
+=> nrel_main_idtf:
+	[Средняя школа №85](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[85];
+
+=> nrel_site:
+	[<a href="sch85.minsk.edu.by">sch85.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Центральная 11А,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[271-37-42] (* <- lang_ru;; *);;
+
+school_85 <= nrel_terrain_object_location: ..position85;;
+school_85<- concept_mapped_point;;
+school_85<- concept_terrain_object;;
+school_85<- concept_mapped_object;;
+..position85=> nrel_main_idtf: [53.867563 с.ш. 27.648669 в.д.](*<-lang_ru;;*);;
+..position85=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.867563];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.648669];;*);;
+*);;
+*);;

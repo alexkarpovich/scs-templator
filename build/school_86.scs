@@ -1,0 +1,34 @@
+school_86
+=> nrel_main_idtf:
+	[Средняя школа №86](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[86];
+
+=> nrel_site:
+	[<a href="sch86.minsk.edu.by">sch86.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[пер. Козлова 36,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[253-74-16] (* <- lang_ru;; *);;
+
+school_86 <= nrel_terrain_object_location: ..position86;;
+school_86<- concept_mapped_point;;
+school_86<- concept_terrain_object;;
+school_86<- concept_mapped_object;;
+..position86=> nrel_main_idtf: [53.898849 с.ш. 27.597772 в.д.](*<-lang_ru;;*);;
+..position86=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.898849];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.597772];;*);;
+*);;
+*);;

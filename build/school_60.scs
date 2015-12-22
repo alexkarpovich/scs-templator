@@ -1,0 +1,34 @@
+school_60
+=> nrel_main_idtf:
+	[Cредняя школа №60](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[60];
+
+=> nrel_site:
+	[<a href="sch60.minsk.edu.by">sch60.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Карла Либкнехта 80/1,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 (17) 2086974] (* <- lang_ru;; *);;
+
+school_60 <= nrel_terrain_object_location: ..position60;;
+school_60<- concept_mapped_point;;
+school_60<- concept_terrain_object;;
+school_60<- concept_mapped_object;;
+..position60=> nrel_main_idtf: [53.8962169 с.ш. 27.5221294 в.д.](*<-lang_ru;;*);;
+..position60=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8962169];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.5221294];;*);;
+*);;
+*);;

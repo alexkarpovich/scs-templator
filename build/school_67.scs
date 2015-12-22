@@ -1,0 +1,34 @@
+school_67
+=> nrel_main_idtf:
+	[Cредняя школа №67](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[67];
+
+=> nrel_site:
+	[<a href="sch67.minsk.edu.by">sch67.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Алибегова 7,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 (17) 277-11-94] (* <- lang_ru;; *);;
+
+school_67 <= nrel_terrain_object_location: ..position67;;
+school_67<- concept_mapped_point;;
+school_67<- concept_terrain_object;;
+school_67<- concept_mapped_object;;
+..position67=> nrel_main_idtf: [53.870782 с.ш. 27.4774227 в.д.](*<-lang_ru;;*);;
+..position67=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.870782];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4774227];;*);;
+*);;
+*);;

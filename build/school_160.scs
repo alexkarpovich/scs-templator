@@ -1,0 +1,34 @@
+school_160
+=> nrel_main_idtf:
+	[Средняя школа №160](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[160];
+
+=> nrel_site:
+	[<a href="sch160.minsk.edu.by">sch160.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[улица Рафиева 19,Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 029 257-10-53] (* <- lang_ru;; *);;
+
+school_160 <= nrel_terrain_object_location: ..position160;;
+school_160<- concept_mapped_point;;
+school_160<- concept_terrain_object;;
+school_160<- concept_mapped_object;;
+..position160=> nrel_main_idtf: [53.939196 с.ш. 27.6469644 в.д.](*<-lang_ru;;*);;
+..position160=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.939196];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6469644];;*);;
+*);;
+*);;

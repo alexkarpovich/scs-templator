@@ -1,0 +1,34 @@
+school_138
+=> nrel_main_idtf:
+	[Средняя школа №138](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[138];
+
+=> nrel_site:
+	[<a href="sch138.minsk.edu.by">sch138.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[проспект Пушкина 34 Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 251-35-33] (* <- lang_ru;; *);;
+
+school_138 <= nrel_terrain_object_location: ..position138;;
+school_138<- concept_mapped_point;;
+school_138<- concept_terrain_object;;
+school_138<- concept_mapped_object;;
+..position138=> nrel_main_idtf: [53.9039498 с.ш. 27.4901866 в.д.](*<-lang_ru;;*);;
+..position138=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9039498];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4901866];;*);;
+*);;
+*);;

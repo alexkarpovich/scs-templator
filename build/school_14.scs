@@ -1,0 +1,34 @@
+school_14
+=> nrel_main_idtf:
+	[Cредняя школа №14](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[14];
+
+=> nrel_site:
+	[<a href="http://sch14.minsk.edu.by">http://sch14.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Севастопольская, 54] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172648365] (* <- lang_ru;; *);;
+
+school_14 <= nrel_terrain_object_location: ..position14;;
+school_14<- concept_mapped_point;;
+school_14<- concept_terrain_object;;
+school_14<- concept_mapped_object;;
+..position14=> nrel_main_idtf: [53.938478 с.ш. 27.624805 в.д.](*<-lang_ru;;*);;
+..position14=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.938478];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.624805];;*);;
+*);;
+*);;

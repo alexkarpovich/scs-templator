@@ -1,0 +1,34 @@
+school_180
+=> nrel_main_idtf:
+	[Cредняя школа №180](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[180];
+
+=> nrel_site:
+	[<a href="http://sch180.minsk.edu.by">http://sch180.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г.Минск, ул. Радужная, 8-3] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172501050] (* <- lang_ru;; *);;
+
+school_180 <= nrel_terrain_object_location: ..position180;;
+school_180<- concept_mapped_point;;
+school_180<- concept_terrain_object;;
+school_180<- concept_mapped_object;;
+..position180=> nrel_main_idtf: [53.932530 с.ш. 27.498517 в.д.](*<-lang_ru;;*);;
+..position180=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.932530];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.498517];;*);;
+*);;
+*);;

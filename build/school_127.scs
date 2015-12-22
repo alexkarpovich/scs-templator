@@ -1,0 +1,34 @@
+school_127
+=> nrel_main_idtf:
+	[Средняя школа №127](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[127];
+
+=> nrel_site:
+	[<a href="sch127.minsk.edu.by">sch127.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Одоевского 45 Минск] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[?] (* <- lang_ru;; *);;
+
+school_127 <= nrel_terrain_object_location: ..position127;;
+school_127<- concept_mapped_point;;
+school_127<- concept_terrain_object;;
+school_127<- concept_mapped_object;;
+..position127=> nrel_main_idtf: [53.9042046 с.ш. 27.4993531 в.д.](*<-lang_ru;;*);;
+..position127=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.9042046];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4993531];;*);;
+*);;
+*);;

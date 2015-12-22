@@ -1,0 +1,34 @@
+school_145
+=> nrel_main_idtf:
+	[Средняя школа №145](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[145];
+
+=> nrel_site:
+	[<a href="sch145.minsk.edu.by">sch145.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[улица Алибегова,Минск 220116] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 271-68-97] (* <- lang_ru;; *);;
+
+school_145 <= nrel_terrain_object_location: ..position145;;
+school_145<- concept_mapped_point;;
+school_145<- concept_terrain_object;;
+school_145<- concept_mapped_object;;
+..position145=> nrel_main_idtf: [53.8719737 с.ш. 27.4647702 в.д.](*<-lang_ru;;*);;
+..position145=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8719737];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4647702];;*);;
+*);;
+*);;

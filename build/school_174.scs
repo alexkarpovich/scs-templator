@@ -1,0 +1,34 @@
+school_174
+=> nrel_main_idtf:
+	[Средняя школа №174](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[174];
+
+=> nrel_site:
+	[<a href="sch174.minsk.edu.by">sch174.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Космонавтов 15/2,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[272-02-97] (* <- lang_ru;; *);;
+
+school_174 <= nrel_terrain_object_location: ..position174;;
+school_174<- concept_mapped_point;;
+school_174<- concept_terrain_object;;
+school_174<- concept_mapped_object;;
+..position174=> nrel_main_idtf: [53.851183 с.ш. 27.466961 в.д.](*<-lang_ru;;*);;
+..position174=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.851183];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.466961];;*);;
+*);;
+*);;

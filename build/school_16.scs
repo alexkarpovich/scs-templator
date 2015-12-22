@@ -1,0 +1,34 @@
+school_16
+=> nrel_main_idtf:
+	[Cредняя школа №16](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[16];
+
+=> nrel_site:
+	[<a href="http://sch16.minsk.edu.by">http://sch16.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Бирюзова, 13] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172047936] (* <- lang_ru;; *);;
+
+school_16 <= nrel_terrain_object_location: ..position16;;
+school_16<- concept_mapped_point;;
+school_16<- concept_terrain_object;;
+school_16<- concept_mapped_object;;
+..position16=> nrel_main_idtf: [53.911228 с.ш. 27.512465 в.д.](*<-lang_ru;;*);;
+..position16=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.911228];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.512465];;*);;
+*);;
+*);;

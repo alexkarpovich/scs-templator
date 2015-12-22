@@ -1,0 +1,34 @@
+school_116
+=> nrel_main_idtf:
+	[Средняя школа №116](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[116];
+
+=> nrel_site:
+	[<a href="sch116.minsk.edu.by">sch116.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Матусевича 5,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[255-10-02] (* <- lang_ru;; *);;
+
+school_116 <= nrel_terrain_object_location: ..position116;;
+school_116<- concept_mapped_point;;
+school_116<- concept_terrain_object;;
+school_116<- concept_mapped_object;;
+..position116=> nrel_main_idtf: [53.931479 с.ш. 27.614836 в.д.](*<-lang_ru;;*);;
+..position116=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.931479];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.614836];;*);;
+*);;
+*);;

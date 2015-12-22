@@ -1,0 +1,34 @@
+school_155
+=> nrel_main_idtf:
+	[Средняя школа №155](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[155];
+
+=> nrel_site:
+	[<a href="sch155.minsk.edu.by">sch155.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[пр Газеты Правда 52, Минск, 220116] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[8 017 272-51-09] (* <- lang_ru;; *);;
+
+school_155 <= nrel_terrain_object_location: ..position155;;
+school_155<- concept_mapped_point;;
+school_155<- concept_terrain_object;;
+school_155<- concept_mapped_object;;
+..position155=> nrel_main_idtf: [53.8603141 с.ш. 27.4696043 в.д.](*<-lang_ru;;*);;
+..position155=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8603141];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4696043];;*);;
+*);;
+*);;

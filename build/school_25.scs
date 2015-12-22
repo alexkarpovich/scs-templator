@@ -1,0 +1,34 @@
+school_25
+=> nrel_main_idtf:
+	[Cредняя школа №25](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[25];
+
+=> nrel_site:
+	[<a href="http://sch25.minsk.edu.by">http://sch25.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Яна Чечота, 20] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+3752968580] (* <- lang_ru;; *);;
+
+school_25 <= nrel_terrain_object_location: ..position25;;
+school_25<- concept_mapped_point;;
+school_25<- concept_terrain_object;;
+school_25<- concept_mapped_object;;
+..position25=> nrel_main_idtf: [53.845558 с.ш. 27.480116 в.д.](*<-lang_ru;;*);;
+..position25=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.845558];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.480116];;*);;
+*);;
+*);;

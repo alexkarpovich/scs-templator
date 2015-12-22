@@ -1,0 +1,34 @@
+school_117
+=> nrel_main_idtf:
+	[Средняя школа №117](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[117];
+
+=> nrel_site:
+	[<a href="sch117.minsk.edu.by">sch117.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Уборевича, 14/ 2,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[241-08-72] (* <- lang_ru;; *);;
+
+school_117 <= nrel_terrain_object_location: ..position117;;
+school_117<- concept_mapped_point;;
+school_117<- concept_terrain_object;;
+school_117<- concept_mapped_object;;
+..position117=> nrel_main_idtf: [53.844224 с.ш. 27.638769 в.д.](*<-lang_ru;;*);;
+..position117=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.844224];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.638769];;*);;
+*);;
+*);;

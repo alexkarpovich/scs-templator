@@ -1,0 +1,34 @@
+school_27
+=> nrel_main_idtf:
+	[Cредняя школа №27](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[27];
+
+=> nrel_site:
+	[<a href="http://sch27.minsk.edu.by">http://sch27.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул.Кропоткина, 74] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172342774] (* <- lang_ru;; *);;
+
+school_27 <= nrel_terrain_object_location: ..position27;;
+school_27<- concept_mapped_point;;
+school_27<- concept_terrain_object;;
+school_27<- concept_mapped_object;;
+..position27=> nrel_main_idtf: [53.919154 с.ш. 27.558569 в.д.](*<-lang_ru;;*);;
+..position27=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.919154];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.558569];;*);;
+*);;
+*);;

@@ -1,0 +1,34 @@
+school_82
+=> nrel_main_idtf:
+	[Средняя школа №82](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[82];
+
+=> nrel_site:
+	[<a href="sch82.minsk.edu.by">sch82.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[Народная ул. 27,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[295-20-45] (* <- lang_ru;; *);;
+
+school_82 <= nrel_terrain_object_location: ..position82;;
+school_82<- concept_mapped_point;;
+school_82<- concept_terrain_object;;
+school_82<- concept_mapped_object;;
+..position82=> nrel_main_idtf: [53.873570 с.ш. 27.624270 в.д.](*<-lang_ru;;*);;
+..position82=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.873570];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.624270];;*);;
+*);;
+*);;

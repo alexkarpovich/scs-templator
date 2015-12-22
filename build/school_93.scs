@@ -1,0 +1,34 @@
+school_93
+=> nrel_main_idtf:
+	[Средняя школа №93](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[93];
+
+=> nrel_site:
+	[<a href="sch93.minsk.edu.by">sch93.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Жудро 63,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[255-54-48] (* <- lang_ru;; *);;
+
+school_93 <= nrel_terrain_object_location: ..position93;;
+school_93<- concept_mapped_point;;
+school_93<- concept_terrain_object;;
+school_93<- concept_mapped_object;;
+..position93=> nrel_main_idtf: [53.921048 с.ш. 27.478710 в.д.](*<-lang_ru;;*);;
+..position93=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.921048];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.478710];;*);;
+*);;
+*);;

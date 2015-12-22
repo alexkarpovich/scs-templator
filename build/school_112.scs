@@ -1,0 +1,34 @@
+school_112
+=> nrel_main_idtf:
+	[Средняя школа №112](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[112];
+
+=> nrel_site:
+	[<a href="sch112.minsk.edu.by">sch112.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Уборевича 142,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[341-37-32] (* <- lang_ru;; *);;
+
+school_112 <= nrel_terrain_object_location: ..position112;;
+school_112<- concept_mapped_point;;
+school_112<- concept_terrain_object;;
+school_112<- concept_mapped_object;;
+..position112=> nrel_main_idtf: [53.836179 с.ш. 27.623674 в.д.](*<-lang_ru;;*);;
+..position112=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.836179];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.623674];;*);;
+*);;
+*);;

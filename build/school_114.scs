@@ -1,0 +1,34 @@
+school_114
+=> nrel_main_idtf:
+	[Средняя школа №114](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[114];
+
+=> nrel_site:
+	[<a href="sch114.minsk.edu.by">sch114.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Седых 66,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[283-07-94] (* <- lang_ru;; *);;
+
+school_114 <= nrel_terrain_object_location: ..position114;;
+school_114<- concept_mapped_point;;
+school_114<- concept_terrain_object;;
+school_114<- concept_mapped_object;;
+..position114=> nrel_main_idtf: [53.946491 с.ш. 27.640121 в.д.](*<-lang_ru;;*);;
+..position114=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.946491];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.640121];;*);;
+*);;
+*);;

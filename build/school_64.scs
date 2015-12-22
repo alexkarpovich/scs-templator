@@ -1,0 +1,34 @@
+school_64
+=> nrel_main_idtf:
+	[Cредняя школа №64](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[64];
+
+=> nrel_site:
+	[<a href="sch64.minsk.edu.by">sch64.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[улица Уборевича 124А,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 340-64-21] (* <- lang_ru;; *);;
+
+school_64 <= nrel_terrain_object_location: ..position64;;
+school_64<- concept_mapped_point;;
+school_64<- concept_terrain_object;;
+school_64<- concept_mapped_object;;
+..position64=> nrel_main_idtf: [53.836467 с.ш. 27.6327954 в.д.](*<-lang_ru;;*);;
+..position64=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.836467];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6327954];;*);;
+*);;
+*);;

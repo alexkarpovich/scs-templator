@@ -1,0 +1,34 @@
+school_189
+=> nrel_main_idtf:
+	[Cредняя школа №189](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[189];
+
+=> nrel_site:
+	[<a href="sch189.minsk.edu.by">sch189.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Горовца 14,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 247-58-62] (* <- lang_ru;; *);;
+
+school_189 <= nrel_terrain_object_location: ..position189;;
+school_189<- concept_mapped_point;;
+school_189<- concept_terrain_object;;
+school_189<- concept_mapped_object;;
+..position189=> nrel_main_idtf: [53.8722828 с.ш. 27.6012719 в.д.](*<-lang_ru;;*);;
+..position189=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8722828];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6012719];;*);;
+*);;
+*);;

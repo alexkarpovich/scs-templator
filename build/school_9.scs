@@ -1,0 +1,34 @@
+school_9
+=> nrel_main_idtf:
+	[Cредняя школа №9](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[9];
+
+=> nrel_site:
+	[<a href="http://sch9.minsk.edu.by">http://sch9.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Ежи Гедройца, 20] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375173722503] (* <- lang_ru;; *);;
+
+school_9 <= nrel_terrain_object_location: ..position9;;
+school_9<- concept_mapped_point;;
+school_9<- concept_terrain_object;;
+school_9<- concept_mapped_object;;
+..position9=> nrel_main_idtf: [53.851127 с.ш. 27.483224 в.д.](*<-lang_ru;;*);;
+..position9=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.851127];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.483224];;*);;
+*);;
+*);;

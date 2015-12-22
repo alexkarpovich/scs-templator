@@ -1,0 +1,34 @@
+school_58
+=> nrel_main_idtf:
+	[Cредняя школа №58](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[58];
+
+=> nrel_site:
+	[<a href="sch58.minsk.edu.by">sch58.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[Народная ул. 51,Минск 220026,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 295-32-11] (* <- lang_ru;; *);;
+
+school_58 <= nrel_terrain_object_location: ..position58;;
+school_58<- concept_mapped_point;;
+school_58<- concept_terrain_object;;
+school_58<- concept_mapped_object;;
+..position58=> nrel_main_idtf: [53.871475 с.ш. 27.6327549 в.д.](*<-lang_ru;;*);;
+..position58=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.871475];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6327549];;*);;
+*);;
+*);;

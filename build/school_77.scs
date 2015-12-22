@@ -1,0 +1,34 @@
+school_77
+=> nrel_main_idtf:
+	[Cредняя школа №77](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[77];
+
+=> nrel_site:
+	[<a href="sch77.minsk.edu.by">sch77.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[ул. Крупской 10,Минск, Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 273-95-65] (* <- lang_ru;; *);;
+
+school_77 <= nrel_terrain_object_location: ..position77;;
+school_77<- concept_mapped_point;;
+school_77<- concept_terrain_object;;
+school_77<- concept_mapped_object;;
+..position77=> nrel_main_idtf: [53.8609965 с.ш. 27.6257282 в.д.](*<-lang_ru;;*);;
+..position77=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8609965];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.6257282];;*);;
+*);;
+*);;

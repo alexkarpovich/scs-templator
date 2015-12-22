@@ -1,0 +1,34 @@
+school_2
+=> nrel_main_idtf:
+	[Cредняя школа №2](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[2];
+
+=> nrel_site:
+	[<a href="http://sch2.minsk.edu.by">http://sch2.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Казимировская, 5] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375173148402] (* <- lang_ru;; *);;
+
+school_2 <= nrel_terrain_object_location: ..position2;;
+school_2<- concept_mapped_point;;
+school_2<- concept_terrain_object;;
+school_2<- concept_mapped_object;;
+..position2=> nrel_main_idtf: [53.915269 с.ш. 27.432451 в.д.](*<-lang_ru;;*);;
+..position2=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.915269];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.432451];;*);;
+*);;
+*);;

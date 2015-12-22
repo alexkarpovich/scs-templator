@@ -1,0 +1,34 @@
+school_8
+=> nrel_main_idtf:
+	[Cредняя школа №8](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[8];
+
+=> nrel_site:
+	[<a href="http://sch8.minsk.edu.by">http://sch8.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[г. Минск, ул. Ангарская, 48/2] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375172432212] (* <- lang_ru;; *);;
+
+school_8 <= nrel_terrain_object_location: ..position8;;
+school_8<- concept_mapped_point;;
+school_8<- concept_terrain_object;;
+school_8<- concept_mapped_object;;
+..position8=> nrel_main_idtf: [53.874976 с.ш. 27.689024 в.д.](*<-lang_ru;;*);;
+..position8=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.874976];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.689024];;*);;
+*);;
+*);;

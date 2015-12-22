@@ -1,0 +1,34 @@
+school_51
+=> nrel_main_idtf:
+	[Cредняя школа №51](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[51];
+
+=> nrel_site:
+	[<a href="sch51.minsk.edu.by">sch51.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[улица Язепа Дроздовича, 3,Минск,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 291-65-88] (* <- lang_ru;; *);;
+
+school_51 <= nrel_terrain_object_location: ..position51;;
+school_51<- concept_mapped_point;;
+school_51<- concept_terrain_object;;
+school_51<- concept_mapped_object;;
+..position51=> nrel_main_idtf: [53.848124 с.ш. 27.5523676 в.д.](*<-lang_ru;;*);;
+..position51=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.848124];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.5523676];;*);;
+*);;
+*);;

@@ -1,0 +1,34 @@
+school_161
+=> nrel_main_idtf:
+	[Средняя школа №161](* <- lang_ru;; *);
+
+=> nrel_school_number:
+	[161];
+
+=> nrel_site:
+	[<a href="sch161.minsk.edu.by">sch161.minsk.edu.by</a>]
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+
+=> nrel_address:
+	[Слободская 169, Минск, 220025,Беларусь] (* <- lang_ru;; *);
+
+=> nrel_phone:
+	[+375 17 205-16-58] (* <- lang_ru;; *);;
+
+school_161 <= nrel_terrain_object_location: ..position161;;
+school_161<- concept_mapped_point;;
+school_161<- concept_terrain_object;;
+school_161<- concept_mapped_object;;
+..position161=> nrel_main_idtf: [53.8467181 с.ш. 27.4634863 в.д.](*<-lang_ru;;*);;
+..position161=> nrel_WGS_84_translation: ...
+(*
+-> ...
+(*
+<- struct_WGS_84;;
+-> rrel_WGS_84_latitude: ... (*-> rrel_WGS_84_degree: [53.8467181];;*);;
+-> rrel_WGS_84_longitude: ... (*-> rrel_WGS_84_degree: [27.4634863];;*);;
+*);;
+*);;
