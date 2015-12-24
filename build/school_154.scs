@@ -18,7 +18,9 @@ school_154
 => nrel_phone:
 	[8 029 267-10-54] (* <- lang_ru;; *);;
 
-school_154 <= nrel_terrain_object_location: ..position154;;
+concept_situation -> 
+[*school_154 <= nrel_terrain_object_location: ..position154;;*] 
+;;
 school_154<- concept_mapped_point;;
 school_154<- concept_terrain_object;;
 school_154<- concept_mapped_object;;

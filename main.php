@@ -24,7 +24,9 @@ school_{$school['number']}
 => nrel_phone:
 	[{$school['phone']}] (* <- lang_ru;; *);;
 
-school_{$school['number']} <= nrel_terrain_object_location: ..position{$school['number']};;
+concept_situation -> 
+[*school_{$school['number']} <= nrel_terrain_object_location: ..position{$school['number']};;*] 
+;;
 school_{$school['number']}<- concept_mapped_point;;
 school_{$school['number']}<- concept_terrain_object;;
 school_{$school['number']}<- concept_mapped_object;;
